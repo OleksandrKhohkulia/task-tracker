@@ -265,16 +265,16 @@ main .section.highlight {
   background-color: white;
 }
 
-.task-card > div:last-of-type {
+.task-card > div:last-of-type, .tabs.tasks.block .tabs-panel>div:last-of-type {
   border-top: 1px solid gray ;
 }
 
-.task-card .cards-card-body>ul{
+.task-card .cards-card-body>ul, .tabs.tasks.block .tabs-panel>div:nth-child(3)>ul{
   padding: 0;
   list-style: none;
 }
 
-.task-card .cards-card-body:nth-child(3)>ul>li{
+.task-card .cards-card-body:nth-child(3)>ul>li, .tabs.tasks.block .tabs-panel>div:nth-child(3)>ul>li{
   width: 50px;
   height: 50px;
   border-radius:100%;
@@ -284,21 +284,21 @@ main .section.highlight {
   background: black;
 }
 
-.task-card .cards-card-body:nth-child(3){
+.task-card .cards-card-body:nth-child(3), .tabs.tasks.block .tabs-panel>div:nth-child(3) {
   display: flex;
   align-items: center;
 }
 
-.task-card .cards-card-body:nth-child(3)>ul:not(:first-of-type){
+.task-card .cards-card-body:nth-child(3)>ul:not(:first-of-type), .tabs.tasks.block .tabs-panel>div:nth-child(3)>ul:not(:first-of-type){
   position: relative;
   left: -15px;
 }
 
-.task-card .cards-card-body:nth-child(3)>ul:first-of-type{
+.task-card .cards-card-body:nth-child(3)>ul:first-of-type, .tabs.tasks.block .tabs-panel>div:nth-child(3)>ul:first-of-type{
   margin-left:30px ;
 }
 
-.task-card .cards-card-body:nth-child(1)>*{
+.task-card .cards-card-body:nth-child(1)>*, .tabs.tasks.block .tabs-panel>div:nth-child(1){
   display: flex;
   justify-content: space-between;
 }
