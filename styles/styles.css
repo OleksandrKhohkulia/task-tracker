@@ -262,7 +262,7 @@ main .section.highlight {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  background-color: rgb(216, 216, 216);
+  background-color: rgb(239 239 239);
 }
 
 .task-card > div:last-of-type, .tabs.tasks.block .tabs-panel>div:last-of-type {
