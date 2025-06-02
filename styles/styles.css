@@ -289,7 +289,7 @@ main .section.highlight {
   left: -15px;
 }
 
-.task-card .cards-card-body:nth-child(1){
+.task-card .cards-card-body:nth-child(1)>*{
   display: flex;
   justify-content: space-between;
 }
