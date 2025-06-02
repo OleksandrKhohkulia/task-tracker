@@ -288,7 +288,7 @@ main .section.highlight {
   display: flex;
 }
 
-.task-card .cards-card-body:nth-child(3)>ul>li:not(:first-of-type){
+.task-card .cards-card-body:nth-child(3)>ul:not(:first-of-type){
   position: relative;
   left: -15px;
 }
