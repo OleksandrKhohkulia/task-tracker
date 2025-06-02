@@ -12,7 +12,7 @@
 
 :root {
   /* colors */
-  --background-color: rgb(231, 231, 231);
+  --background-color: rgb(184, 184, 184);
   --light-color: #f8f8f8;
   --dark-color: #505050;
   --text-color: #131313;
@@ -262,7 +262,7 @@ main .section.highlight {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  background-color: white;
+  background-color: rgb(216, 216, 216);
 }
 
 .task-card > div:last-of-type, .tabs.tasks.block .tabs-panel>div:last-of-type {
@@ -272,6 +272,12 @@ main .section.highlight {
 .task-card .cards-card-body>ul, .tabs.tasks.block .tabs-panel>div:nth-child(3)>ul{
   padding: 0;
   list-style: none;
+}
+
+.task-card .cards-card-body>ul>li{
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 6px gray;
 }
 
 .task-card .cards-card-body:nth-child(3)>ul>li, .tabs.tasks.block .tabs-panel>div:nth-child(3)>ul>li{
