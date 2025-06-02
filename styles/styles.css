@@ -286,11 +286,16 @@ main .section.highlight {
 
 .task-card .cards-card-body:nth-child(3){
   display: flex;
+  align-items: center;
 }
 
 .task-card .cards-card-body:nth-child(3)>ul:not(:first-of-type){
   position: relative;
   left: -15px;
+}
+
+.task-card .cards-card-body:nth-child(3)>ul:first-of-type{
+  margin-left:30px ;
 }
 
 .task-card .cards-card-body:nth-child(1)>*{
