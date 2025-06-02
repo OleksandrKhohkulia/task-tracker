@@ -274,10 +274,10 @@ main .section.highlight {
   list-style: none;
 }
 
-.task-card .cards-card-body>ul>li{
-  background-color: white !important;
-  border-radius: 15px !important;
-  box-shadow: 0 0 6px gray !important;
+.task-card>ul>li{
+  background-color: white ;
+  border-radius: 15px ;
+  box-shadow: 0 0 6px gray ;
 }
 
 .task-card .cards-card-body:nth-child(3)>ul>li, .tabs.tasks.block .tabs-panel>div:nth-child(3)>ul>li{
