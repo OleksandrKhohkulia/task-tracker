@@ -268,3 +268,23 @@ main .section.highlight {
 .task-card > div:last-of-type {
   border-top: 1px solid gray ;
 }
+
+.task-card .columns-img-col>ul{
+  display: flex;
+  list-style: none;
+}
+
+.task-card .columns-img-col>ul>li{
+  width: 50px;
+  height: 50px;
+  border-radius:100%;
+  background-color: gray;
+  border: 3px solid white;
+  border-radius: 100%;
+  background: black;
+}
+
+.task-card .columns-img-col>ul>li:not(:first-of-type){
+  position: relative;
+  left: -15px;
+}
