@@ -275,7 +275,7 @@ main .section.highlight {
 }
 
 .task-card>ul>li{
-  background-color: white ;
+  background-color: white  !important;
   border-radius: 15px ;
   box-shadow: 0 0 6px gray ;
 }
