@@ -12,7 +12,7 @@
 
 :root {
   /* colors */
-  --background-color: rgb(213 212 212);
+  --background-color: rgb(218 219 226);
   --light-color: #f8f8f8;
   --dark-color: #505050;
   --text-color: #131313;
@@ -73,7 +73,7 @@
 body {
   display: none;
   margin: 0;
-  background-color: var(--background-color);
+  background: linear-gradient(#e7e8ed, #b8bbc4);
   color: var(--text-color);
   font-family: var(--body-font-family);
   font-size: var(--body-font-size-m);
@@ -258,11 +258,11 @@ main .section.highlight {
 
 .task-card {
   border-radius: 25px;
-  box-shadow: 0 0 6px gray;
+  box-shadow: 0 0 6px #80808073;
   display: flex;
   flex-direction: column;
   padding: 20px;
-  background-color: rgb(239 239 239);
+  background-color: rgb(249 249 249);
 }
 
 .task-card > div:last-of-type, .tabs.tasks.block .tabs-panel>div:last-of-type {
@@ -277,7 +277,7 @@ main .section.highlight {
 .task-card>ul>li{
   background-color: white  !important;
   border-radius: 15px ;
-  box-shadow: 0 0 6px gray ;
+  box-shadow: 0 0 6px #8080808c ;
 }
 
 .task-card .cards-card-body:nth-child(3)>ul>li, .tabs.tasks.block .tabs-panel>div:nth-child(3)>ul>li{
