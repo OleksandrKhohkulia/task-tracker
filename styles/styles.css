@@ -269,8 +269,7 @@ main .section.highlight {
   border-top: 1px solid gray ;
 }
 
-.task-card .columns-img-col>ul{
-  display: flex;
+.task-card .cards-card-body>ul{
   list-style: none;
 }
 
@@ -282,6 +281,10 @@ main .section.highlight {
   border: 3px solid white;
   border-radius: 100%;
   background: black;
+}
+
+.task-card .cards-card-body:nth-child(3){
+  display: flex;
 }
 
 .task-card .cards-card-body:nth-child(3)>ul>li:not(:first-of-type){
